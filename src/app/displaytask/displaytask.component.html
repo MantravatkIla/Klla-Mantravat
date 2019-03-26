@@ -1,0 +1,97 @@
+<div class="container-fluid container-fluid1 ">
+    <div class="row">
+        <div class="col-sm-2 sidebarleft" id="myTopnav" style="margin-top:44px;">
+            <ul style="list-style-type:none;">
+                <li id="sidebarleftOpt"><a routerLink="/dashboard">
+                        <span class="glyphicon glyphicon-home"></span>
+                        Dashbord</a></li>
+                <li id="sidebarleftOpt"><a routerLink="/create-task">
+                        <span class="glyphicon glyphicon-magnet"></span>
+                        change task</a></li>
+                <li id="sidebarleftOpt"><a routerLink="/task">
+                        <span class="glyphicon glyphicon-magnet"></span>
+                        create task</a></li>
+                <li id="sidebarleftOpt"><a routerLink="/displaytask">
+                        <span class="glyphicon glyphicon-credit-card"></span>
+                        Display task</a></li>
+                <li id="sidebarleftOpt"><a routerLink="/leave">
+                        <span class="glyphicon glyphicon-list-alt"></span>
+                        Leave</a></li>
+                <li id="sidebarleftOpt"><a routerLink="/timesheet">
+                        <span class="glyphicon glyphicon-time"></span>
+                        Time Sheet</a></li>
+                <li id="sidebarleftOpt"><a (click)="onChang()">
+                        <span class="glyphicon glyphicon-time"></span>
+                        Singup</a></li>
+            </ul>
+        </div>
+
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 leave" style="text-align :center" id="head1">
+            <h4>Display task</h4>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-sm-6">
+            <table summary="folder contents for fly types">
+                    <thead>
+                        <tr>
+                            <th class="name">Project Name</th>
+                            <th class="location">Description</th>
+                            <th class="color">SAVE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th colspan="3"  class="collapsible">project1</th>
+<!-- <div class="content"> -->
+                        </tr>
+                        <tr>
+                            <th class="start">Task1</th>
+                            <td>case study</td>
+                            <button type="button" id="btn">OK</button>
+
+                        </tr>
+                        <tr>
+                            <th class="start">Task2</th>
+                            <td>hrms</td>
+                            <button type="button" id="btn">OK</button>
+                        </tr>
+                        <tr>
+                            <th class="end">Task3</th>
+                            <td>cs</td>
+                            <button type="button" id="btn">OK</button>
+                        </tr>
+                        <tr>
+                            <th colspan="3">project2</th>
+                        </tr>
+                        <tr>
+                            <th class="start">Task1</th>
+                            <td>online mecanics</td>
+                            <button type="button" id="btn">OK</button>
+                        </tr>
+                        <tr>
+                            <th class="start">Task2</th>
+                            <td>onlne shopping</td>
+                            <button type="button" id="btn">OK</button>
+                        </tr>
+                        <tr class="end">
+                            <th class="end">Task3</th>
+                            <td>online system</td>
+                            <button type="button" id="btn">OK</button>
+                        </tr>
+                    </tbody>
+                </table>
+    </div>
+    </div>
+
+
+    <div class="col-sm-3 right-sidebar" id="Feed">
+        Feed Updates
+
+    </div>
+</div>

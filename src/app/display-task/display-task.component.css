@@ -1,0 +1,20 @@
+ul li ul {
+    display: none;
+  }
+  #form1{
+    margin-top: 51px;
+    background: white;
+    height: 500px;
+}
+#Feed{
+  margin-left: 916px;
+    background: white;
+    margin-top: -511px;
+    height: 500px;
+}
+#form{
+  background: white;
+  height: 500px;
+  margin-top: 47px;
+  width: 799px;
+}

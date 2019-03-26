@@ -1,0 +1,54 @@
+ul[_ngcontent-c3][_ngcontent-c3] {
+    background: white;
+    margin-left: -133px;
+    width: 219px;
+    padding-left: 46px;
+    margin-top: 7px;
+    height: 170px;
+}
+#form{
+
+    background: white;
+    margin-top: 60px;
+    width: 757px;
+    margin-left: 26px;
+}
+textarea[_ngcontent-c3] {
+    background-color: transparent;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    height: 104px;
+    width: 295px;
+}
+
+label {
+    margin-left: 178px;
+    font-size: small;
+    font-weight: 300;
+}
+#Feed{
+    height: 500px;
+    margin-top: -582px;
+    background: white;
+    width: 280px;
+    margin-left: 978px;
+}
+
+    .form-control {
+        display: block;
+        width: 55%;
+        height: 31px;
+        padding: 4px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 3px solid #ccc;
+        margin-left: -60px;
+        /* margin-top: -109px; */
+}
+#btn{
+    background: blue;
+    border-radius: 16px;
+}
