@@ -16,10 +16,12 @@
     .col-sm-2 sidebarleft {
       display: block !important;
     }
-    .topnav{
+    .topnav[_ngcontent-c4] {
       background: black;
-      margin-top: 20px; 
+      margin-top: -438%;
+      margin-left: 195%;
     }
+
     .sidebarleft {
       display: none !important;
       padding: 0px;
@@ -65,14 +67,15 @@
       width: 100px;
       margin-top: 28px;
     }
-  #Feed{
-    position: absolute;
-    z-index: 2;
-    width: 100px;
-    margin-top: 28px;
-    margin-left: 311px;
-    font-size: 11px;
+    #Feed[_ngcontent-c4] {
+      position: absolute;
+      z-index: 2;
+      width: 121px;
+      margin-top: -351%;
+      margin-left: 531px;
+      /* font-size: 11px; */
     }
+
     .col-sm-3  right-sidebar{
       display: none;
     }
@@ -81,6 +84,7 @@
       height: 200px;
       width: 284px;
     }
+    
   }
   ul[_ngcontent-c3] {
     background: white;
