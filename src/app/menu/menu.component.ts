@@ -12,16 +12,9 @@ export class MenuComponent implements OnInit {
   ngOnInit() {
     this.pro()
   }
-   myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
 
   pro() {
+    
     console.log("hello");
     
     var coll = document.getElementsByClassName("collapsible");

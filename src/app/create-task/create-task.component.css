@@ -9,9 +9,9 @@ ul[_ngcontent-c3][_ngcontent-c3] {
 #form{
 
     background: white;
-    margin-top: 47px;
-    width: 835px;
-    margin-left: -75px;
+    margin-top: 60px;
+    width: 757px;
+    margin-left: 26px;
 }
 textarea[_ngcontent-c3] {
     background-color: transparent;
@@ -20,12 +20,9 @@ textarea[_ngcontent-c3] {
     height: 104px;
     width: 295px;
 }
-.form-control[_ngcontent-c3] {
-    padding: 5px 12px;
-    width: auto;
-}
+
 label {
-    margin-left: 270px;
+    margin-left: 178px;
     font-size: small;
     font-weight: 300;
 }
@@ -36,10 +33,20 @@ label {
     width: 280px;
     margin-left: 978px;
 }
-.form-control[_ngcontent-c3][_ngcontent-c3] {
-    padding: -5px 12px;
-    width: auto;
-    margin-top: 5px;
+
+    .form-control {
+        display: block;
+        width: 55%;
+        height: 31px;
+        padding: 4px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 3px solid #ccc;
+        margin-left: -60px;
+        /* margin-top: -109px; */
 }
 #btn{
     background: blue;

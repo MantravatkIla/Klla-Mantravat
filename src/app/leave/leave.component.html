@@ -194,10 +194,32 @@ Enter text here...</textarea
       </div>
     </div>
 
-
-    <div class="col-sm-7" style="width:80%;margin-top: 7px">
+    <div class="col-sm-2 sidebarleft divHight2" id="myTopnav">
+      <div id="overlay">
+        <div id="sidebar">
+          <ul style="list-style-type:none;">
+            <li id="sidebarleftOpt">
+              <a (click)="callComponentMethodHere(1)" [ngClass]="'pointer'">
+                <span class="glyphicon glyphicon-home"></span>
+                Apply Leave</a>
+            </li>
+            <li id="sidebarleftOpt">
+              <a (click)="callComponentMethodHere(2)" data-toggle="collapse" data-target="#demo" [ngClass]="'pointer'">
+                <span class="glyphicon glyphicon-magnet"></span>
+                Leave Histry</a>
+            </li>
+            <li id="sidebarleftOpt">
+              <a routerLink="/leavehistory">
+                <span class="glyphicon glyphicon-credit-card"></span>
+                Leave Status</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-7">
       <div id="content2 ">
-        <!-- <div *ngIf="applyLeave" class="container-fluid   divHight">
+        <div *ngIf="applyLeave" class="container-fluid   divHight">
           <div class="headertext">
             <h4>Apply Leave</h4>
           </div>
@@ -289,12 +311,10 @@ Enter text here...</textarea
               </div>
             </form>
           </div>
-        </div> -->
+        </div>
         <div *ngIf="leaveHistry">
-            <h2 align="center">Leave History</h2>
-          <div class="container-fluid " style="   display: block; margin-top: 32px;">
+          <div class="container-fluid " style="    margin-top: 32px;">
             <div class="row">
-              
               <div class="col-sm-5">
                 Start Date:<input style="margin-top :5px" type="date" name="" id="" />
               </div>
@@ -348,44 +368,43 @@ Enter text here...</textarea
                 </table>
               </div> -->
               <div class="search-table-outter wrapper">
-                
                 <table class="search-table inner">
                   <tr>
-                    <th>Requested Date</th>
-                    <th>LeaveType</th>
-                    <th>Days</th>
-                    <th>RequestStatus</th>
-                    <th>Start Date</th>
-                    <th>End Date</th>
+                    <th >Requested Date</th>
+                    <th >LeaveType</th>
+                    <th >Days</th>
+                    <th >RequestStatus</th>
+                    <th >Start Date</th>
+                    <th >End Date</th>
                     <th>LeaveReasons</th>
 
                   </tr>
-
-                  <tr *ngFor="let leavHistry of leaveStatus1">
-
-                    <td> {{ leavHistry.Rdate }}</td>
-
-
-                    <td> {{ leavHistry.leaveType }}</td>
-
-
-                    <td> {{ leavHistry.Days }}</td>
-
-
-                    <td> {{ leavHistry.Rstatus }}</td>
-
-
-                    <td>{{ leavHistry.StartDate}}</td>
-
-
-                    <td>{{ leavHistry.EndDate }}</td>
-
-
-                    <td>{{ leavHistry.lreasons }}</td>
-
-
+                  
+                    <tr *ngFor="let leavHistry of leaveStatus1">
+                      
+                        <td> {{ leavHistry.Rdate }}</td>
+                      
+                    
+                        <td> {{ leavHistry.leaveType }}</td>
+                      
+                      
+                        <td > {{ leavHistry.Days }}</td>
+                      
+                    
+                        <td > {{ leavHistry.Rstatus }}</td>
+                      
+                      
+                        <td >{{ leavHistry.StartDate}}</td>
+                      
+                      
+                        <td>{{ leavHistry.EndDate }}</td>
+                      
+                  
+                        <td >{{ leavHistry.lreasons }}</td>
+                      
+                    
                   </tr>
-
+                           
                 </table>
               </div>
             </div>
@@ -416,10 +435,10 @@ Enter text here...</textarea
               </div>
             </div> -->
         </div>
-        <!-- <div *ngIf="leaveStatus">
+        <div *ngIf="leaveStatus">
           <h2 style="margin-left: 207px;">leaveStatus</h2>
 
-        </div> -->
+        </div>
       </div>
     </div>
     <div class="col-sm-3 right-sidebar" id="Feed">
