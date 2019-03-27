@@ -11,5 +11,14 @@ export class FeedComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  myFunctionFeedBack() {
+    var x = document.getElementById("Feed");
+    if (x.className === "col-sm-3 right-sidebar") {
+      console.log("if");
+      x.className = "right-sidebarB";
+    } else {
+      console.log("else");
+      x.className = "col-sm-3 right-sidebar";
+    }
+  }
 }

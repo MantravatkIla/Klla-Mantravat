@@ -1,0 +1,89 @@
+#Feed{
+    margin-top: 54px;
+  margin-left: 526px;
+  width: 285px;
+  background-color: white;
+  height: 345px;
+ position: fixed;
+}
+@media screen and (max-width: 600px) {
+    #myTopnav {
+      position: absolute;
+      z-index: 2;
+      width: 100px;
+      margin-top: 28px;
+    }
+    .col-sm-2 sidebarleft {
+      display: block !important;
+    }
+    .topnav{
+      background: black;
+      margin-top: 20px; 
+    }
+    .sidebarleft {
+      display: none !important;
+      padding: 0px;
+    
+    }
+    .sidebarleftA {
+      display: none !important;
+    }
+    .sidebarleftB {
+      display: block !important;
+    }
+    .topnav a.icon {
+      float: left;
+      display: block;
+    }
+    .topnav a.icon1 {
+      float: right;
+      display: block;
+    }
+    
+  
+    .right-sidebar {
+      width: 81px;
+      height: 224px;
+      display: none;
+    }
+    .col-xs-2 {
+      width: 16.666667%;
+      margin: 0px;
+      padding: 0px;
+    }
+    ul {
+      padding-left: 1px;
+      font-size: 12px;
+    }
+  
+    .glyphicon-menu-hamburger {
+      font-size: 25px;
+    }
+    #myTopnav {
+      position: absolute;
+      z-index: 2;
+      width: 100px;
+      margin-top: 28px;
+    }
+  #Feed{
+    position: absolute;
+    z-index: 2;
+    width: 100px;
+    margin-top: 28px;
+    margin-left: 311px;
+    font-size: 11px;
+    }
+    .col-sm-3  right-sidebar{
+      display: none;
+    }
+    .right-sidebarB{
+      background: white;
+      height: 200px;
+      width: 284px;
+    }
+  }
+  ul[_ngcontent-c3] {
+    background: white;
+    list-style-type: none;
+    width: 114px;
+}  

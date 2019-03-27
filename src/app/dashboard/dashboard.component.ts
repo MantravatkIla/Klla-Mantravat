@@ -37,6 +37,7 @@ export class DashboardComponent implements OnInit {
     this.dashboardMid = false;
     this.singup = true;
   }
+  
 
   // d3 pie char method
   drawPieChart = () => {

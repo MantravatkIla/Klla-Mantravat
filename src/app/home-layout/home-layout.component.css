@@ -9,6 +9,8 @@
     padding-left: 0px; 
     margin-right: auto;
     margin-left: auto;
+    overflow: auto;
+    overflow-x: hidden;
     
 }
 .container

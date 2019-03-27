@@ -4,6 +4,11 @@ img {
   margin-left: 26px;
   border-radius: 17px;
 }
+#myTopnav
+{
+  margin-top: 50px;
+   position:fixed
+}
 #img {
   width: 85px;
   height: 85px;
@@ -147,7 +152,14 @@ ul {
     float: right;
     display: block;
   }
-  
+  #Feed {
+    margin-top: -1311px;
+    margin-left: 358px;
+    width: 281px;
+    background-color: white;
+    height: 345px;
+    position: fixed;
+}
 
   .right-sidebar {
     width: 81px;
@@ -172,15 +184,9 @@ ul {
     z-index: 2;
     width: 100px;
     margin-top: 28px;
+    width: 70%;
   }
-#Feed{
-  position: absolute;
-  z-index: 2;
-  width: 100px;
-  margin-top: 28px;
-  margin-left: 311px;
-  font-size: 11px;
-  }
+
   .col-sm-3  right-sidebar{
     display: none;
   }

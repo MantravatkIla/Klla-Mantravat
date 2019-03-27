@@ -118,9 +118,25 @@ img {
       display: block !important;
     } */
   @media screen and (max-width: 600px) {
+   
+   #mobileHeader
+   {
+     margin-top:40px;
+   }
+    #myTopnav {
+      position: absolute;
+      z-index: 2;
+      width: 100px;
+      margin-top: 28px;
+      width:32%;
+    }
+    .col-sm-2 sidebarleft {
+      display: block !important;
+    }
     .topnav{
       background: black;
-      margin-top: -5px; 
+      margin-top: 20px; 
+      margin-left: -210px;
     }
     .sidebarleft {
       display: none !important;
@@ -157,6 +173,11 @@ img {
       padding-left: 1px;
       font-size: 12px;
     }
+    .container-fluid1[_ngcontent-c5] {
+      background-color: #ddd;
+      height: auto;
+      width: 346%
+  }
   
     .glyphicon-menu-hamburger {
       font-size: 25px;

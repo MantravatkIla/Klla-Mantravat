@@ -291,9 +291,18 @@ input#file {
     height: 40px;
     padding-top: 0.5px;
   }
+  #Feed {
+    margin-top: -1311px;
+    margin-left: 358px;
+    width: 281px;
+    background-color: white;
+    height: 345px;
+    position: fixed;
+}
   .topnav {
     background: black;
-    margin-top: -5px;
+    margin-top: -26px;
+    margin-left: -11px;
   }
   .sidebarleft {
     display: none !important;
@@ -340,15 +349,7 @@ input#file {
     width: 100px;
     margin-top: 28px;
   }
-  #Feed {
-    position: absolute;
-    z-index: 2;
-    width: 100px;
-    margin-top: 28px;
-    margin-left: 311px;
-    font-size: 11px;
-    margin-top: -533px;
-  }
+ 
   .col-sm-3 right-sidebar {
     display: none;
   }
