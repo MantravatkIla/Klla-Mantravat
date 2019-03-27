@@ -10,15 +10,15 @@
   <li id="sidebarleftOpt" class="collapsible" style="margin-left: -17px;" (click)="task()"><a routerLink="#">
       <span class="glyphicon glyphicon-home"></span>
       Task1</a></li>
-  <div class="content" id="tasks" style="display:block">
+  <div class="content" id="tasks" style="display:none">
     <button class="collapsible" (click)="subtask()" id="sub">SubTask</button >
-    <div class="content" style="display:block">
+    <div class="content" style="display:none">
       <div *ngFor="let item of names" id="proj">
         <div class="col-sm-5 A">
           
           <button class="collapsible" (click)="subtask()">{{item}}</button>
           <!-- <label>{{item}}</label> -->
-          <div *ngFor="let item of display" class="content" style="display:block">
+          <div *ngFor="let item of display" class="content" style="display:none">
             <div class="col-sm-5 A" *ngFor="let item of display" id="p1">
               <label> name :{{item.name}}</label>
               <label> StartDate :{{item.StartDate}}</label>
@@ -34,12 +34,12 @@
           <span class="glyphicon glyphicon-home"></span>
           Task2</a></li>
           <button class="collapsible" (click)="subtask()">SubTask</button>
-          <div class="content">
+          <div class="content" style="display:none"> 
             <div *ngFor="let item of names" id="proj">
               <div class="col-sm-5 A">
                 <button class="collapsible" (click)="subtask()">{{item}}</button>
                 <!-- <label>{{item}}</label> -->
-                <div *ngFor="let item of display" class="content">
+                <div *ngFor="let item of display" class="content" style="display:none">
                   <div class="col-sm-5 A" *ngFor="let item of display" id="p1">
                     <label> name :{{item.name}}</label>
                     <label> StartDate :{{item.StartDate}}</label>
