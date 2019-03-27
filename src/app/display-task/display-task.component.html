@@ -12,13 +12,13 @@
       Task1</a></li>
   <div class="content" id="tasks" style="display:block">
     <button class="collapsible" (click)="subtask()" id="sub">SubTask</button >
-    <div class="content">
+    <div class="content" style="display:block">
       <div *ngFor="let item of names" id="proj">
         <div class="col-sm-5 A">
           
           <button class="collapsible" (click)="subtask()">{{item}}</button>
           <!-- <label>{{item}}</label> -->
-          <div *ngFor="let item of display" class="content">
+          <div *ngFor="let item of display" class="content" style="display:block">
             <div class="col-sm-5 A" *ngFor="let item of display" id="p1">
               <label> name :{{item.name}}</label>
               <label> StartDate :{{item.StartDate}}</label>
