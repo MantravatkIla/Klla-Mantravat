@@ -12,9 +12,25 @@ export class MenuComponent implements OnInit {
   ngOnInit() {
     this.pro()
   }
-
+   myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  myFunctionFeedBack() {
+    var x = document.getElementById("Feed");
+    if (x.className === "col-sm-3 right-sidebar") {
+      console.log("if");
+      x.className = "right-sidebarB";
+    } else {
+      console.log("else");
+      x.className = "col-sm-3 right-sidebar";
+    }
+  }
   pro() {
-    
     console.log("hello");
     
     var coll = document.getElementsByClassName("collapsible");
@@ -35,6 +51,7 @@ export class MenuComponent implements OnInit {
 
 
   }
+  
   project() {
     var l1 = (document.getElementById('projects') as HTMLInputElement);
     var l2 = (document.getElementById('tasks') as HTMLInputElement);

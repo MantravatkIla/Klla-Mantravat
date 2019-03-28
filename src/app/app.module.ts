@@ -27,6 +27,12 @@ import { CreateTeamComponent } from './create-team/create-team.component';
 import { MenuComponent } from './menu/menu.component';
 import { FeedComponent } from './feed/feed.component';
  import { DisplayTaskComponent } from './display-task/display-task.component';
+import { DisplayteamComponent } from './displayteam/displayteam.component';
+import { LeavestatusComponent } from "./leavestatus/leavestatus.component";
+import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
+import { ChangetimesheetComponent } from './changetimesheet/changetimesheet.component';
+import { ChangeprofileComponent } from './changeprofile/changeprofile.component';
+import { LeavesComponent } from './leaves/leaves.component';
 
 @NgModule({
   providers: [],
@@ -116,6 +122,42 @@ import { FeedComponent } from './feed/feed.component';
                     path :"menu",
                     component :MenuComponent
                   }
+                  ,
+                  {
+                    path :"displayteam",
+                    component :DisplayteamComponent
+                  }
+                  ,
+                  {
+                    path :"leavestatus",
+                    component :LeavestatusComponent
+                  },
+                  {
+                    path :"signup",
+                    component :  SignupComponent
+                  }
+                  ,
+                  {
+                    path :"forgotpassword",
+                    component :  ForgotpasswordComponent
+                  }  ,
+                  {
+                    path :"changetimesheet",
+                    component :  ChangetimesheetComponent
+                  } ,
+                  {
+                    path :"changeprofile",
+                    component :  ChangeprofileComponent
+                  },
+                  {
+                    path :"profile",
+                    component : ProfileComponent
+                  }
+                  ,
+                  {
+                    path :"leaves",
+                    component : LeavesComponent
+                  }
   
       
         ]
@@ -145,7 +187,13 @@ import { FeedComponent } from './feed/feed.component';
     CreateTeamComponent,
     MenuComponent,
     FeedComponent,
-     DisplayTaskComponent
+     DisplayTaskComponent,
+     DisplayteamComponent,
+     LeavestatusComponent,
+     ForgotpasswordComponent,
+     ChangetimesheetComponent,
+     ChangeprofileComponent,
+     LeavesComponent
   ]
 })
 export class AppModule {}

@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import $ = require('jquery');
-@Component({
-  selector: 'app-profile',
-  templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.css']
-})
-export class ProfileComponent implements OnInit {
 
+@Component({
+  selector: 'app-changeprofile',
+  templateUrl: './changeprofile.component.html',
+  styleUrls: ['./changeprofile.component.css']
+})
+export class ChangeprofileComponent implements OnInit {
+  element: HTMLElement;
   constructor() { }
 
   ngOnInit() {
@@ -24,4 +25,5 @@ img()
   (document.getElementById("profile-image1")as HTMLElement).src = '/assets/images/'+a.substr(12,25);
   
 }
+
 }

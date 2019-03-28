@@ -242,10 +242,13 @@ input#file {
   color: black;
   margin-top: 4px;
 }
-#Feed{
-  margin-left: 897px;
-  position: fixed;
-  z-index: 2;
+#Feed[_ngcontent-c5] {
+  margin-left: 667px;
+    position: fixed;
+    z-index: 2;
+    top: 45px;
+    margin-top: 7px;
+    width: 12%;
 }
 
 @media screen and (max-width: 600px) {
