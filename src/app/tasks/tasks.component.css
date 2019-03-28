@@ -389,16 +389,18 @@ input#file {
 
 }
 .inputFild {
-  height: 576px;
-  background: white;
-  padding-left: 56px;
-  padding-right: 178px;
+  height: 604px;
+    background: white;
+    padding-left: 56px;
+    padding-right: 178px;
+    width: 796px;
+    margin-bottom: 8px;
 }
 .commentBox {
-  margin-top:4px;
+  margin-top: 4px;
   background: white;
   height: 199px;
-  width: 100%;
+  width: 70%;
 }
 .pad {
   margin-top: 9px;
@@ -408,6 +410,7 @@ input#file {
   text-align: center;
   background-color: white;
   height: 21px;
+  width: 797px;
 }
 .form-groupfirstRow {
   margin-top: 1px;
@@ -462,4 +465,8 @@ textarea {
 }
 .Very{
   border-top: 2px solid #ff0000;
+}
+#bt1{
+  margin-left: -283px;
+    margin-top: -79px;
 }

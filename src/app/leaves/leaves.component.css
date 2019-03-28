@@ -242,14 +242,14 @@ select {
     color: black;
     margin-top: 4px;
   }
-  #Feed[_ngcontent-c5] {
-    margin-left: 585px;
+  #Feed{
+    margin-left: 667px;
     position: fixed;
     z-index: 2;
     top: 45px;
     margin-top: 7px;
-    width: 15%;
-}
+    width: 12%;
+  }
   
   @media screen and (max-width: 600px) {
   

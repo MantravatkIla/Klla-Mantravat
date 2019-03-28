@@ -19,16 +19,20 @@ import { SignupComponent } from './signup/signup.component';
 import { DisplayprojectComponent } from './displayproject/displayproject.component';
 import { CreatetimesheetComponent } from './createtimesheet/createtimesheet.component';
 import { LeavehistoryComponent } from './leavehistory/leavehistory.component';
-import { CreateteamComponent } from './createteam/createteam.component';
-import { ChangeteamComponent } from './changeteam/changeteam.component';
+import { ChangeprojectComponent } from './changeproject/changeproject.component';
+import { ProjectListComponent } from "./project-list/project-list.component";
+import { CreateTaskComponent } from './create-task/create-task.component';
+import { ChangeTeamComponent } from "./change-team/ChangeTeamComponent";
+import { CreateTeamComponent } from './create-team/create-team.component';
 import { MenuComponent } from './menu/menu.component';
 import { FeedComponent } from './feed/feed.component';
-import { DisplaytaskComponent } from "./displaytask/displaytask.component";
-import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
-import { ChangeprofileComponent } from './changeprofile/changeprofile.component';
+ import { DisplayTaskComponent } from './display-task/display-task.component';
 import { DisplayteamComponent } from './displayteam/displayteam.component';
-import { LeavestatusComponent } from './leavestatus/leavestatus.component';
+import { LeavestatusComponent } from "./leavestatus/leavestatus.component";
+import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { ChangetimesheetComponent } from './changetimesheet/changetimesheet.component';
+import { ChangeprofileComponent } from './changeprofile/changeprofile.component';
+import { LeavesComponent } from './leaves/leaves.component';
 
 @NgModule({
   providers: [],
@@ -69,10 +73,10 @@ import { ChangetimesheetComponent } from './changetimesheet/changetimesheet.comp
             path: "task",
             component: TasksComponent
           },
-          {
-            path: "changeteam",
-            component: ChangeteamComponent
-          },
+          // {
+          //   path: "changeteam",
+          //   component: ChangeteamComponent
+          // },
           {
             path :"timesheet",
             component :TimesheetComponent
@@ -94,48 +98,67 @@ import { ChangetimesheetComponent } from './changetimesheet/changetimesheet.comp
             component :LeavehistoryComponent
           },
           {
-            path :"createteam",
-            component :CreateteamComponent
-          },
-          {
-            path :"signup",
-            component :SignupComponent
-          },
-          {
-            path :"header",
-            component :HeaderComponent
-          },
-          {
-            path :"menu",
-            component :MenuComponent
-          },
-          {
-            path :"forgotpassword",
-            component :ForgotpasswordComponent
-          },
-          {
-            path :"profile",
-            component :ProfileComponent
-          },
-          {
-            path :"changeprofile",
-            component :ChangeprofileComponent
-          },
-          {
-            path :"leavestatus",
-            component :LeavestatusComponent
-          },
-          {
-            path :"changetimesheet",
-            component :ChangetimesheetComponent
-          },
-          {
-            path :"displayteam",
-            component :DisplayteamComponent
-          }
-      
-      
-      
+            path :"Projectlist",
+            component : ProjectListComponent     },
+            {
+              path :"changeproject",
+              component : ChangeprojectComponent     },
+              {
+                path :"create-task",
+                component : CreateTaskComponent     },
+
+                {
+                  path :"change-team",
+                  component :ChangeTeamComponent
+                },
+                {
+                  path :"create-team",
+                  component : CreateTeamComponent     },
+                  {
+                    path :"display-task",
+                    component : DisplayTaskComponent
+                  },
+                  {
+                    path :"menu",
+                    component :MenuComponent
+                  }
+                  ,
+                  {
+                    path :"displayteam",
+                    component :DisplayteamComponent
+                  }
+                  ,
+                  {
+                    path :"leavestatus",
+                    component :LeavestatusComponent
+                  },
+                  {
+                    path :"signup",
+                    component :  SignupComponent
+                  }
+                  ,
+                  {
+                    path :"forgotpassword",
+                    component :  ForgotpasswordComponent
+                  }  ,
+                  {
+                    path :"changetimesheet",
+                    component :  ChangetimesheetComponent
+                  } ,
+                  {
+                    path :"changeprofile",
+                    component :  ChangeprofileComponent
+                  },
+                  {
+                    path :"profile",
+                    component : ProfileComponent
+                  }
+                  ,
+                  {
+                    path :"leaves",
+                    component : LeavesComponent
+                  }
+  
       
         ]
       }
@@ -157,16 +180,20 @@ import { ChangetimesheetComponent } from './changetimesheet/changetimesheet.comp
     DisplayprojectComponent,
     CreatetimesheetComponent,
     LeavehistoryComponent,
-    CreateteamComponent,
-    ChangeteamComponent,
+    ChangeprojectComponent,
+    ProjectListComponent,
+    CreateTaskComponent,
+    ChangeTeamComponent,
+    CreateTeamComponent,
     MenuComponent,
     FeedComponent,
-    DisplaytaskComponent,
-    ForgotpasswordComponent,
-    ChangeprofileComponent,
-    DisplayteamComponent,
-    LeavestatusComponent,
-    ChangetimesheetComponent
+     DisplayTaskComponent,
+     DisplayteamComponent,
+     LeavestatusComponent,
+     ForgotpasswordComponent,
+     ChangetimesheetComponent,
+     ChangeprofileComponent,
+     LeavesComponent
   ]
 })
 export class AppModule {}

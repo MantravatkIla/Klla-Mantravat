@@ -10,7 +10,7 @@
     width: 69px;
     /* margin-left: 532px; */
     border-radius: 12px;
-    margin-left: 882px;
+    margin-left: 560px;
   }
   input[type=text], input[type=password] {
     width: 70%;
@@ -21,7 +21,7 @@
     box-sizing: border-box;
   } 
   input[type=date] {
-    width: 27%;
+    width: 50%;
     padding: 5px 10px;
     margin: 8px -200px;
     display: inline-block;
@@ -38,7 +38,7 @@
   }
   #l1
   {
-      margin-left: 250px;
+      margin-left: 35px;
   }
   th{padding:20px 7px; font-size:15px; color:#444; background:#66C2E0;}
 td{padding:5px 10px; height:35px;}

@@ -56,3 +56,7 @@ img{
         border-radius: 12px;
         margin-left: 582px;
       }
+      .row{
+        padding-top: 6px;
+        width: 67%; 
+     }
