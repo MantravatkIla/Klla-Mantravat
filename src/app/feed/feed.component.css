@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+    #Feed{
+    margin-top: 54px;
+    margin-left: 540px;
+    width: 285px;
+    background-color: white;
+    height: 345px;
+    position: fixed;
+}
+
+
+
+}

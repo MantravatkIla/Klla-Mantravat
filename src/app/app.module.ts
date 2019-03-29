@@ -33,6 +33,7 @@ import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.compone
 import { ChangetimesheetComponent } from './changetimesheet/changetimesheet.component';
 import { ChangeprofileComponent } from './changeprofile/changeprofile.component';
 import { LeavesComponent } from './leaves/leaves.component';
+import { DisplayProjectComponent } from './display-project/display-project.component';
 
 @NgModule({
   providers: [],
@@ -157,6 +158,10 @@ import { LeavesComponent } from './leaves/leaves.component';
                   {
                     path :"leaves",
                     component : LeavesComponent
+                  },
+                  {
+                    path :"display-project",
+                    component : DisplayProjectComponent
                   }
   
       
@@ -193,7 +198,8 @@ import { LeavesComponent } from './leaves/leaves.component';
      ForgotpasswordComponent,
      ChangetimesheetComponent,
      ChangeprofileComponent,
-     LeavesComponent
+     LeavesComponent,
+     DisplayProjectComponent
   ]
 })
 export class AppModule {}

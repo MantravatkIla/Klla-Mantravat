@@ -15,8 +15,6 @@ button {
   padding-left: 0px;
   padding-right: 0px; 
 }
-
-
 a {
   text-decoration: none;
 }
@@ -29,8 +27,6 @@ label {
 }
 input {
   height: 26px;
-
-  /* border-radius: 15px; */
 }
 
 
@@ -52,25 +48,124 @@ input {
   /* background-color: red !important; */
 }
 
-.attechmentShow {
+
+.attechmentShow[_ngcontent-c5] {
   width: 608px;
   margin-left: 71px;
   height: 102px;
   border: 1px solid rgba(0, 0, 0, 0.6);
   background: white;
-}
-.attechment {
-  color: #645b7e;
-  height: 25px;
-  padding-top: 1px;
-  padding-left: 7px;
-  background-color: #ddd;
-  margin-top: 2px;
+  margin-top: -150px;
 }
 #cross_icon {
   color: black;
   margin-top: 4px;
 }
+#c1{
+  background: white;
+  height: 177px;
+  width: 804px;
+}
+.form-group {
+  margin-top: 18px;
+  padding-top: 21px;
+}
+#head1{
+  background: white;
+    margin-left: 16px;
+    margin-top: -199px;
+    width: 808px;
+}
+
+
+
+
+.inputFild {
+  margin-top: -154px;
+  height: 576px;
+  background: white;
+  padding-left: 56px;
+  padding-right: 178px;
+  width: 804px;
+}
+.commentBox[_ngcontent-c7] {
+  margin-top: 4px;
+  background: white;
+  height: 199px;
+  width: 70%;
+}
+.checkBox{
+  margin-top: 19px;
+  background: white;
+  height: 83px;
+  width: 197%;
+  }
+  #task{
+    display: inline-block;
+    max-width: 122%;
+    margin-bottom: -13px;
+    /* font-weight: 700; */
+    margin-left: 202px;
+  }
+  
+    #btn[_ngcontent-c3] {
+      width: 83px;
+    margin-top: -45px;
+    margin-left: 379px;
+    }
+  #Addtask{
+    background: white;
+    margin-left: 15px;
+    margin-top: -85px;
+    width: 784px;
+}
+
+  
+
+  
+
+.pad {
+  margin-top: 9px;
+  text-align: right;
+}
+
+.form-groupfirstRow {
+  margin-top: 1px;
+}
+.midDiv {
+  height: 450px;
+  overflow: auto;
+}
+.form-control {
+  padding: 3px 12px;
+  width: auto;
+}
+ 
+textarea {
+  background-color: transparent;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  height: 104px;
+  width: 295px;
+}
+#textarea {
+  height: 100px;
+}
+
+
+#btn{
+  background-color: #f1f1f1;
+  margin-left: 378px;
+  width: 52px;
+  border-radius: 180px;
+}
+  #h21{
+    margin-top: 252px;
+  }
+
+
+
+
 
 @media screen and (max-width: 600px) {
   #head1[_ngcontent-c3] {
@@ -86,6 +181,8 @@ input {
 }
   #mobileHeader{
     margin-top: 9px;
+    background: black;
+    width: 822px;
   }
   input#file[_ngcontent-c3] {
     margin-left: 80px;
@@ -120,25 +217,15 @@ input {
     width: 100%;
   }
   
-  .headertext[_ngcontent-c1] {
-    margin-top: 30px;
-    /* text-align: center; */
-    background-color: white;
-    height: 40px;
-    padding-top: 0.5px;
-  }
-  #myTopnav {
-    position: absolute;
-    z-index: 2;
-    width: 100px;
-    margin-top: 28px;
-  }
-  .sidebarleft {
-    display: none !important;
-    padding: 0px;
-    padding-left: 1px !important;
-    padding-right: 1px !important;
-  }
+  
+  
+  .checkBox[_ngcontent-c5] {
+    margin-top: 19px;
+    background: white;
+    height: 83px;
+    width: 265%;
+}
+  
  
   .sidebarleftA {
     display: none !important;
@@ -156,11 +243,6 @@ input {
   }
 
   
-  .col-xs-2 {
-    width: 16.666667%;
-    margin: 0px;
-    padding: 0px;
-  }
   ul {
     padding-left: 1px;
     font-size: 12px;
@@ -169,174 +251,17 @@ input {
   .glyphicon-menu-hamburger {
     font-size: 25px;
   }
-  #myTopnav {
-    position: absolute;
-    z-index: 2;
-    width: 100px;
-    margin-top: 28px;
-  }
-  #Feed {
-    position: absolute;
-    z-index: 2;
-    width: 100px;
-    margin-top: 28px;
-    margin-left: 311px;
-    font-size: 11px;
-    margin-top: -533px;
-  }
   
+  
+  .glyphicon-menu-hamburger[_ngcontent-c5] {
+    font-size: 25px;
+    margin-left: -43px;
+    margin-right: -416px;
+}
   .col-sm-3 right-sidebar {
     display: none;
   }
  
 }
 
-/* new css  */
-.form-group {
-  margin-top: 18px;
-  padding-top: 21px;
-}
-#head1{
-  background: white;
-    margin-left: 16px;
-    margin-top: -199px;
-    width: 808px;
-}
-input[type=checkbox], input[type=radio] {
-  margin: -93px 0 0;
-  margin-top: 1px\9;
-  line-height: normal;
-  margin-left: 304px;
-  /* margin-top: -40px; */
-}
 
-
-
-.inputFild {
-  margin-top: -154px;
-  height: 576px;
-  background: white;
-  padding-left: 56px;
-  padding-right: 178px;
-  width: 804px;
-}
-.commentBox[_ngcontent-c5] {
-  margin-top: 19px;
-  background: white;
-  height: 199px;
-  width: 197%;
-}
-.checkBox{
-  margin-top: 19px;
-  background: white;
-  height: 83px;
-  width: 197%;
-  }
-  #task{
-    display: inline-block;
-    max-width: 122%;
-    margin-bottom: -13px;
-    /* font-weight: 700; */
-    margin-left: 202px;
-  }
-  
-    #btn[_ngcontent-c3] {
-      width: 83px;
-    margin-top: -45px;
-    margin-left: 379px;
-    }
-  #Addtask{
-    background: white;
-    margin-left: 15px;
-    margin-top: -85px;
-    width: 784px;
-}
-#input
-{
-  margin-top: 533px;
-    height: 576px;
-    background: white;
-    padding-left: 56px;
-    padding-right: 178px;
-    background: pink;
-}
-  
- #change{
-  /* background: white; */
-  margin-left: -15px;
-  width: 813px;
-  margin-top: -583px;
- }
-  
-#form1[_ngcontent-c3][_ngcontent-c3] {
-  margin-left: 61px;
-  width: 762px;
-  margin-left: 319px;
-}
-#head2[_ngcontent-c3] {
-  background: white;
-    margin-left: -7px;
-    margin-top: -35px;
-    width: 781px;
-}
-.pad {
-  margin-top: 9px;
-  text-align: right;
-}
-.headertext {
-  text-align: center;
-  background-color: white;
-  height: 21px;
-}
-.form-groupfirstRow {
-  margin-top: 1px;
-}
-.midDiv {
-  height: 450px;
-  overflow: auto;
-}
-.form-control {
-  padding: 3px 12px;
-  width: auto;
-}
- 
-textarea {
-  background-color: transparent;
-  font-size: 12px;
-  border: 1px solid #ccc;
-  height: 104px;
-  width: 295px;
-}
-#textarea {
-  height: 100px;
-}
-.container-fluid[_ngcontent-c2] {
-  background-color: rgba(65, 19, 230, 0.96);
-  height: 41px;
-  /* position: relative; */
-  width: 100%;
-  width: 100%;
-  position: fixed;
-}
-#f1{
-  margin-top: -45px;
-    height: 576px;
-    background: white;
-    padding-left: 56px;
-    padding-right: 178px;
-    margin-left: -21px;
-}
-#button{
-  margin-top: -125px;
-    /* margin-left: 95px; */
-    margin-right: -223px;
-}
-#btn{
-  background-color: #f1f1f1;
-  margin-left: 378px;
-  width: 52px;
-  border-radius: 180px;
-}
-  #h21{
-    margin-top: 252px;
-  }

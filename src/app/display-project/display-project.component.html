@@ -1,0 +1,87 @@
+<div class="container-fluid container-fluid1 ">
+    <div class="row">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <table summary="folder contents for fly types">
+                    <thead>
+                        <tr>
+                            <th class="name">Project Name</th>
+                            <th class="location">Description</th>
+                            <th class="color">SAVE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <button class="collapsible" (click)="task()">project1</button>
+                            <!-- <div class="content"> -->
+                        </tr>
+                        <tr>
+
+                            <li id="sidebarleftOpt" class="collapsible" style="margin-left: 9px;" (click)="task()"><a
+                                    routerLink="#">
+                                    <span class="glyphicon glyphicon-home"></span>
+                                    Task1</a></li>
+                            <div class="content" id="tasks" style="display:none">
+                                <button class="collapsible" (click)="subtask()" id="sub">SubTask1</button>
+                                <div class="content" id="tasks" style="display:none">
+                                    <div *ngFor="let item of names" id="proj">
+                                        <div class="col-sm-5 A">
+                                            <button class="collapsible" (click)="subtask()">{{item}}</button>
+                                            <!-- <label>{{item}}</label> -->
+                                            <div *ngFor="let item of name" class="content" id="tasks"
+                                                style="display:none">
+                                                <div class="col-sm-5 A" *ngFor="let item of name" id="p1">
+                                                    <label> name :{{item.name}}</label>
+                                                    <label> StartDate :{{item.StartDate}}</label>
+                                                    <label> EndDate:{{item.EndDate}}</label>
+                                                    <label> projname:{{item.projectname}}</label>
+                                                    <label> status:{{item.status}}</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <td>case study</td>
+                            <button type="button" id="btn">OK</button>
+
+                        </tr>
+                        <tr>
+                            <th class="start">Task2</th>
+                            <td>hrms</td>
+                            <button type="button" id="btn">OK</button>
+                        </tr>
+                        <tr>
+                            <th class="end">Task3</th>
+                            <td>cs</td>
+                            <button type="button" id="btn">OK</button>
+                        </tr>
+                        <tr>
+                            <th colspan="3">project2</th>
+                        </tr>
+                        <tr>
+                            <th class="start">Task1</th>
+                            <td>online mecanics</td>
+                            <button type="button" id="btn">OK</button>
+                        </tr>
+                        <tr>
+                            <th class="start">Task2</th>
+                            <td>onlne shopping</td>
+                            <button type="button" id="btn">OK</button>
+                        </tr>
+                        <tr class="end">
+                            <th class="end">Task3</th>
+                            <td>online system</td>
+                            <button type="button" id="btn">OK</button>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>

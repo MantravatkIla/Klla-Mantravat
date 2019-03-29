@@ -36,16 +36,16 @@ label {
 
     .form-control {
         display: block;
-        width: 55%;
-        height: 31px;
-        padding: 4px 12px;
+        width: 54%;
+        height: 40px;
+        padding: 17px 12px;
         font-size: 14px;
         line-height: 1.42857143;
         color: #555;
         background-color: #fff;
         background-image: none;
         border: 3px solid #ccc;
-        margin-left: -60px;
+        margin-left: -75px;
         /* margin-top: -109px; */
 }
 #btn{

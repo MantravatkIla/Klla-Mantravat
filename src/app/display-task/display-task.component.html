@@ -1,21 +1,72 @@
-
 <div class="container-fluid container-fluid1 ">
-    <div class="col-sm-12" id="form">
-        <div class="row">
-            <div class="col-sm-12 leave" style="text-align :center" id="head2">
-              <h4>Display Task</h4>
+  <div class="col-sm-12" id="form">
+    <div class="row">
+      <div class="col-sm-12 leave" style="text-align :center" id="head2">
+        <h4>Display Task</h4>
+      </div>
+    </div>
+
+    <li id="sidebarleftOpt" class="collapsible" style="margin-left: 9px;  margin-top: 11px;" (click)="task()"><a routerLink="#">
+        <span class="glyphicon glyphicon-home"></span>
+        Task1</a></li>
+    <div class="content" id="tasks" style="display:none">
+      <button class="collapsible" (click)="subtask()" id="sub">SubTask1</button>
+      <div class="content" id="tasks" style="display:none">
+        <div *ngFor="let item of names" id="proj">
+          <div class="col-sm-5 A">
+            <button class="collapsible" (click)="subtask()">{{item}}</button>
+            <!-- <label>{{item}}</label> -->
+            <div *ngFor="let item of display" class="content" id="tasks" style="display:none">
+              <div class="col-sm-5 A" *ngFor="let item of display" id="p1">
+                <label> name :{{item.name}}</label>
+                <label> StartDate :{{item.StartDate}}</label>
+                <label> EndDate:{{item.EndDate}}</label>
+                <label> projname:{{item.projectname}}</label>
+                <label> status:{{item.status}}</label>
+              </div>
             </div>
           </div>
+        </div>
 
-  <li id="sidebarleftOpt" class="collapsible" style="margin-left: -17px;" (click)="task()"><a routerLink="#">
+        <!-- <li id="sidebarleftOpt"><a routerLink="/create-task">
+          <span class="glyphicon glyphicon-home"></span>
+          Task3</a></li>
+          <button class="collapsible" (click)="subtask()">SubTask</button>
+          <div class="content">
+            <div *ngFor="let item of names" id="proj">
+              <div class="col-sm-5 A">
+                <button class="collapsible" (click)="subtask()">{{item}}</button>
+                < <label>{{item}}</label> -->
+        <!-- <div *ngFor="let item of display" class="content">
+                  <div class="col-sm-5 A" *ngFor="let item of display" id="p1">
+                    <label> name :{{item.name}}</label>
+                    <label> StartDate :{{item.StartDate}}</label>
+                    <label> EndDate:{{item.EndDate}}</label>
+                    <label> projname:{{item.projectname}}</label>
+                    <label> status:{{item.status}}</label>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+
+
+
+        <!-- <li id="sidebarleftOpt"><a routerLink="/dashboard">
+          <span class="glyphicon glyphicon-home"></span>
+          subtask3</a></li> -->
+       </div> 
+     </div> 
+  <!-- </div> -->
+
+  <li id="sidebarleftOpt" class="collapsible" style="margin-left: 9px;" (click)="task()"><a routerLink="#">
       <span class="glyphicon glyphicon-home"></span>
-      Task1</a></li>
+      Task2</a></li>
   <div class="content" id="tasks" style="display:none">
-    <button class="collapsible" (click)="subtask()" id="sub">SubTask</button >
+    <button class="collapsible" (click)="subtask()" id="sub">SubTask2</button>
     <div class="content" id="tasks" style="display:none">
       <div *ngFor="let item of names" id="proj">
         <div class="col-sm-5 A">
-          
           <button class="collapsible" (click)="subtask()">{{item}}</button>
           <!-- <label>{{item}}</label> -->
           <div *ngFor="let item of display" class="content" id="tasks" style="display:none">
@@ -27,38 +78,30 @@
               <label> status:{{item.status}}</label>
             </div>
           </div>
-
         </div>
       </div>
-      <li id="sidebarleftOpt"><a routerLink="/create-task">
-          <span class="glyphicon glyphicon-home"></span>
-          Task2</a></li>
-          <button class="collapsible" (click)="subtask()">SubTask</button>
-          <div class="content">
-            <div *ngFor="let item of names" id="proj">
-              <div class="col-sm-5 A">
-                <button class="collapsible" (click)="subtask()">{{item}}</button>
-                <!-- <label>{{item}}</label> -->
-                <div *ngFor="let item of display" class="content">
-                  <div class="col-sm-5 A" *ngFor="let item of display" id="p1">
-                    <label> name :{{item.name}}</label>
-                    <label> StartDate :{{item.StartDate}}</label>
-                    <label> EndDate:{{item.EndDate}}</label>
-                    <label> projname:{{item.projectname}}</label>
-                    <label> status:{{item.status}}</label>
-                  </div>
-                </div>
-      
+
+    </div> 
+  </div> 
+
+      <li id="sidebarleftOpt" class="collapsible" style="margin-left: 9px;" (click)="task()"><a routerLink="#">
+        <span class="glyphicon glyphicon-home"></span>
+        Task3</a></li>
+    <div class="content" id="tasks" style="display:none">
+      <button class="collapsible" (click)="subtask()" id="sub">SubTask3</button>
+      <div class="content" id="tasks" style="display:none">
+        <div *ngFor="let item of names" id="proj">
+          <div class="col-sm-5 A">
+            <button class="collapsible" (click)="subtask()">{{item}}</button>
+            <!-- <label>{{item}}</label> -->
+            <div *ngFor="let item of display" class="content" id="tasks" style="display:none">
+              <div class="col-sm-5 A" *ngFor="let item of display" id="p1">
+                <label> name :{{item.name}}</label>
+                <label> StartDate :{{item.StartDate}}</label>
+                <label> EndDate:{{item.EndDate}}</label>
+                <label> projname:{{item.projectname}}</label>
+                <label> status:{{item.status}}</label>
               </div>
             </div>
-
-
-
-
-      <li id="sidebarleftOpt"><a routerLink="/dashboard">
-          <span class="glyphicon glyphicon-home"></span>
-          subtask3</a></li>
-    </div>
-  </div>
-  
-  </div>
+          </div>
+        </div>

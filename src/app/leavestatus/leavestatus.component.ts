@@ -27,32 +27,7 @@ export class LeavestatusComponent implements OnInit {
         "Reason":"went to native",
         "total":"10"
       },
-      // {
-      //   "StartDate" : "2-10-2019",
-      //   "EndDate"   : "6-10-2019",
-      //   "Reason":"went to native",
-      //   "total":"10"
-      // },{
-      //   "StartDate" : "2-10-2019",
-      //   "EndDate"   : "6-10-2019",
-      //   "Reason":"went to native",
-      //   "total":"10"
-      // },{
-      //   "StartDate" : "2-10-2019",
-      //   "EndDate"   : "6-10-2019",
-      //   "Reason":"went to native",
-      //   "total":"10"
-      // },{
-      //   "StartDate" : "2-10-2019",
-      //   "EndDate"   : "6-10-2019",
-      //   "Reason":"went to native",
-      //   "total":"10"
-      // },{
-      //   "StartDate" : "2-10-2019",
-      //   "EndDate"   : "6-10-2019",
-      //   "Reason":"went to native",
-      //   "total":"10"
-      // }
+      
     ]
     this.companyLeaveCelender = [
       {

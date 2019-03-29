@@ -101,24 +101,5 @@ ul[_ngcontent-c3][_ngcontent-c3] {
       width: 63px;
       border-radius: 27px;
   }
-  .h1, h1 {
-    font-size: 30px;
-    margin-left: -6px;
-    background: white;
-    width: 836px;
-    margin-top: 54px;
-    padding-left: 220px;
-}
-  #span{
-    margin-left: 10px;
-    width: 832px;
-  }
-  #task2{
-  display: block;
-    background: white;
-  }
-  #task1{
-    display: block;
-      background: white;
-    }
-    
+  
+  
