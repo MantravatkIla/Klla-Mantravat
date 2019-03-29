@@ -21,7 +21,7 @@ img()
   var a=(document.getElementById("profile-image-upload")as HTMLElement).value
   console.log(a.substr(12,25));
   console.log(a);
-  (document.getElementById("profile-image1")as HTMLElement).src = '/assets/images/'+a.substr(12,25);
+  (<HTMLInputElement>document.getElementById("profile-image1")as HTMLElement).src = '/assets/images/'+a.substr(12,25);
   
 }
 }

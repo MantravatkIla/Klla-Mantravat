@@ -10,6 +10,7 @@ export class FeedComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
   myFunctionFeedBack() {
     var x = document.getElementById("Feed");

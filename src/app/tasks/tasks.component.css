@@ -249,7 +249,9 @@ input#file {
 }
 
 @media screen and (max-width: 600px) {
-
+#div1{
+  width:153%
+}
   
   input#file[_ngcontent-c3] {
     margin-left: 80px;
@@ -292,7 +294,7 @@ input#file {
     padding-top: 0.5px;
   }
   #Feed {
-    margin-top: -1311px;
+    margin-top: -273% !important;
     margin-left: 358px;
     width: 281px;
     background-color: white;
@@ -357,6 +359,7 @@ input#file {
     background: white;
     height: 200px;
     width: 284px;
+    margin-top: -273% !important;
   }
   /* .inputFild[_ngcontent-c1] {
     height: 497px;
@@ -402,7 +405,7 @@ input#file {
   width: 100%;
 }
 .pad {
-  margin-top: 9px;
+  margin-top: -6px;
   text-align: right;
 }
 .headertext {

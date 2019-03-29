@@ -138,6 +138,10 @@ select {
     width: 284px;
   }
 } */
+#div1{
+  width:80%;
+   margin-top:7px
+}
 .container-fluid1{
     padding-top: 37px;
   }
@@ -252,7 +256,10 @@ select {
   
   @media screen and (max-width: 600px) {
   
-    
+    #div1{
+      width:189%;
+       margin-top:30px
+    }
     input#file[_ngcontent-c3] {
       margin-left: 80px;
       margin-bottom: 5px;
@@ -343,14 +350,13 @@ select {
       margin-top: 28px;
     }
     #Feed {
-      position: absolute;
-      z-index: 2;
-      width: 100px;
-      margin-top: 28px;
-      margin-left: 311px;
-      font-size: 11px;
-      margin-top: -533px;
-    }
+      margin-top: -645px!important ;
+      margin-left: 526px;
+      width: 285px;
+      background-color: white;
+      height: 345px;
+      position: fixed;
+  }
     .col-sm-3 right-sidebar {
       display: none;
     }

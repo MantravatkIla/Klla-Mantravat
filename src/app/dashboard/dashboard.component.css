@@ -25,6 +25,7 @@ img {
   width: 339px;
   height: 30px;
 } */
+
 .row {
   padding-top: 6px;
 }
@@ -127,8 +128,21 @@ ul {
   } */
 @media screen and (max-width: 600px) {
   #d1{
-    width:140%;
+    width:100%;
   }
+  #div1{
+    margin-left: -5px;
+    width: 143%;
+  }
+  .A[_ngcontent-c5] {
+    background-color: rgba(255, 255, 255, 0.86);
+    height: 170px;
+    margin-top: 3px;
+    border-color: #ddd;
+    border-width: 6px;
+    border-style: solid;
+    width: 71%;
+}
   .topnav{
     background: black;
     margin-top: -5px; 
