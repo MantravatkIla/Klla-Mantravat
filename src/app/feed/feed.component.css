@@ -71,7 +71,7 @@
       position: absolute;
       z-index: 2;
       width: 121px;
-      margin-top: -346%;
+      margin-top: -346% !important;
       margin-left: 531px;
        /* font-size: 11px;  */
     }

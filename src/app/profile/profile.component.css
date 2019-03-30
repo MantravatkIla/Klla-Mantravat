@@ -86,4 +86,23 @@
     height: 100px;
 	border:2px solid #03b1ce ;}
 	.tital{ font-size:16px; font-weight:500;}
-	 .bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0}	
+   .bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0}	
+   @media screen and (max-width: 600px) {
+  
+    #div1{
+      width: 261%;
+margin-left: -88px;
+    }
+    .topnav{
+      width: 100%;
+background-color: black;
+margin-left: -90px;
+    }
+    button[_ngcontent-c5] {
+      background-color: rgba(65, 19, 230, 0.96);
+      height: 31px;
+      width: 69px;
+      border-radius: 12px;
+      margin-left: 327px;
+  }
+  }
