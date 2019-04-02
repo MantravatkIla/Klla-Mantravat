@@ -305,6 +305,7 @@ validate(value)
     if (x.className === "col-sm-2 sidebarleft divHight2") {
       console.log("if");
       x.className = "sidebarleftB";
+      x.style.marginTop="27px"
     } else {
       console.log("else");
       x.className = "col-sm-2 sidebarleft divHight2";
@@ -315,6 +316,8 @@ validate(value)
     if (x.className === "col-sm-3 right-sidebar") {
       console.log("if");
       x.className = "right-sidebarB";
+      x.style.marginTop="-160%"
+      x.style.marginLeft='424px'
     } else {
       console.log("else");
       x.className = "col-sm-3 right-sidebar";

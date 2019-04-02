@@ -249,7 +249,13 @@ input#file {
 }
 
 @media screen and (max-width: 600px) {
-#div1{
+  button[_ngcontent-c5] {
+    background: rgba(65, 19, 230, 0.96);
+    width: 69px;
+    border-radius: 16px;
+    margin-top: -50px;
+}
+  #div1{
   width:153%
 }
   

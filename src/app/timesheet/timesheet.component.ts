@@ -235,5 +235,33 @@ export class TimesheetComponent implements OnInit {
 
 
   }
+  myFunctionFeedBack() {
+    var x = document.getElementById("Feed");
+    if (x.className === "col-sm-3 right-sidebar") {
+      console.log("if");
+      x.className = "right-sidebarB";
+    } else {
+      console.log("else");
+      x.className = "col-sm-3 right-sidebar";
+    }
+  }
+
+  myFunction() {
+    console.log("running");
+    
+    var x = document.getElementById("myTopnav");
+    if (x.className === "col-sm-2 sidebarleft divHight2") {
+      console.log("if");
+      x.className = "sidebarleftB";
+    } else {
+      console.log("else");
+      x.className = "col-sm-2 sidebarleft divHight2";
+    }
+  }
+  hello()
+  {
+    console.log("hello");
+    
+  }
 }
 

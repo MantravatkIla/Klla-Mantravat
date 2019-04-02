@@ -236,6 +236,16 @@ ul {
     display: block !important;
   } */
 @media screen and (max-width: 600px) {
+  button {
+   
+    background-color: rgba(65, 19, 230, 0.96);
+    height: 31px;;
+    width: 69px;
+    /* margin-left: 532px; */
+    border-radius: 12px;
+    margin-left: 38px;
+  }
+  
   .topnav{
     background: black;
     margin-top: -5px; 

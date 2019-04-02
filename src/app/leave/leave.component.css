@@ -138,6 +138,9 @@ select {
     width: 284px;
   }
 } */
+#d1{
+  margin-top: 50px;
+}
 .container-fluid1{
   padding-top: 37px;
 }
@@ -254,7 +257,9 @@ input#file {
 }
 
 @media screen and (max-width: 600px) {
-
+#d1{
+  margin-top: -10px;
+}
   #div1{
     width:189%;
      margin-top:30px

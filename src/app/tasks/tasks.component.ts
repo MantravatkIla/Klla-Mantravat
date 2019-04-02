@@ -110,6 +110,7 @@ export class TasksComponent implements OnInit {
     if (x.className === "col-sm-2 sidebarleft divHight2") {
       console.log("if");
       x.className = "sidebarleftB";
+      x.style.marginTop='32px'
     } else {
       console.log("else");
       x.className = "col-sm-2 sidebarleft divHight2";
@@ -125,6 +126,8 @@ export class TasksComponent implements OnInit {
     if (x.className === "col-sm-3 right-sidebar") {
       console.log("if");
       x.className = "right-sidebarB";
+      x.style.marginLeft='515px'
+      x.style.marginTop='-267%'
     } else {
       console.log("else");
       x.className = "col-sm-3 right-sidebar";

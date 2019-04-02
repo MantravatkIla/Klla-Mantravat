@@ -37,6 +37,7 @@ export class CreateteamComponent implements OnInit {
     var x = document.getElementById("myTopnav");
     if (x.className === "col-sm-2 sidebarleft") {
       x.className = "sidebarleftB";
+      x.style.marginTop='25px'
     } else {
       x.className = "col-sm-2 sidebarleft";
     }
@@ -44,11 +45,14 @@ export class CreateteamComponent implements OnInit {
 
   myFunctionFeedBack() {
     var x = document.getElementById("Feed");
-    console.log(x)
-    if (x.className === "col-sm-3  right-sidebar") {
+    if (x.className === "col-sm-3 right-sidebar") {
+      console.log("if");
       x.className = "right-sidebarB";
+      x.style.marginTop='-334%'
+      x.style.marginLeft="421px"
     } else {
-      x.className = "col-sm-3  right-sidebar";
+      console.log("else");
+      x.className = "col-sm-3 right-sidebar";
     }
   }
   Team()

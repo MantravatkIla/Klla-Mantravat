@@ -72,10 +72,11 @@
             
         </div>
       </form>
-      <form #userForm="ngForm" (ngSubmit)="submit(userForm.value)" (ngSubmit)="onSubmit()" #testForm="ngForm"
-        ngNativeValidate>
-
+     
         <div class="col-md-12" id="add" style="display:none">
+          <form #userForm="ngForm" (ngSubmit)="submit(userForm.value)" (ngSubmit)="onSubmit()" #testForm="ngForm"
+          ngNativeValidate >
+  
           <div class="container" style="width: 1055px; background-color: white;margin-left: -14px;">
             <label>Address:</label>
             <button type="button" data-toggle="collapse" data-target="#demo" style="margin-left: 18px;"><span
@@ -208,12 +209,12 @@
             onclick="document.getElementById('ed').style.display='block',document.getElementById('add').style.display='none'">Next</button>
             <button id="button" style="margin-left: 24px;"
             onclick="document.getElementById('bd').style.display='block',document.getElementById('add').style.display='none'">Previous</button>
-
+         
           </div>
-          
+        </form>
         </div>
 
-      </form>
+     
       <form #userForm="ngForm" (ngSubmit)="submit(userForm.value)" (ngSubmit)="onSubmit()" #testForm="ngForm"
         ngNativeValidate>
         <div class="col-md-12" id="ed" style=" display:none;background-color: white;">
