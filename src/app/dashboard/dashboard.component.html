@@ -31,6 +31,41 @@
                 <i class="glyphicon glyphicon-menu-hamburger" (click)=" myFunctionFeedBack()" id="icon"></i>
             </a>
         </div>
+
+        <div class="col-sm-6 A">
+                <div class="row">
+                    <div class="col-sm-8  taskBox1">
+                        <div class="col-sm-2">
+                            <span class="glyphicon glyphicon-credit-card"></span></div>
+                        <div class="col-sm-8 " style="text-align :center"> User Details</div>
+                        <!-- <div class="col-sm-2">
+                            <div class="task1">
+                               
+                            </div>  -->
+                    </div>
+                    <div ngFor="let item of pname" ng-show="$first" style="width: 538px; margin-left: -5px;">
+                        <div class="col-sm-12 A" style="    width: 150%;    height: 393px;">
+                            <label> Project:Is going on</label><br />
+                            <label> EMP-name:Anshul kumari</label><br />
+                            <label> project sd:02-02-2019</label><br />
+                            <label> project ed:03-06-2019</label><br />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="share-buttons">
+                    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+                        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+                    </a>
+            </div><div class="fb-share-button"
+             data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"
+              data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+               class="fb-xfbml-parse-ignore">Share</a></div>
+              
+        
+
+
         <!-- <div class="col-sm-2 sidebarleft" id="myTopnav" style="margin-top: 50px;">
             <ul style="list-style-type:none;">
                 <div class="row">
@@ -139,135 +174,7 @@
                 </div>
             </ul>
         </div> -->
-        <div class="col-sm-7 col-xs-8 mainContainer">
-            <div *ngIf="dashboardMid" class="container-fluid container-fluid1 " style="width:200%;">
-                <div class="row" style="margin-top: 35px;">
-                    <div class="col-sm-6 A">
-                        <div class="row">
-                            <div class="col-sm-8  taskBox1">
-                                <div class="col-sm-2">
-                                    <span class="glyphicon glyphicon-credit-card"></span></div>
-                                <div class="col-sm-8 " style="text-align :center"> User Details</div>
-                                <!-- <div class="col-sm-2">
-                                    <div class="task1">
-                                       
-                                    </div>  -->
-                            </div>
-                            <div ngFor="let item of tname" ng-show="$first" style="width: 538px; margin-left: -5px;">
-                                <div class="col-sm-12 A" style="    width: 75%">
-                                    <label> UserName:Aditya</label><br />
-                                    <label> EMPid:199</label><br />
-                                    <label> DOB:02-02-1996</label><br />
-                                    <label> DOJ:03-02-2019</label><br />
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 A">
-                        <div class="row">
-                            <div class="col-sm-12 taskBox1">
-                                <div class="col-sm-2">
-                                    <span class="glyphicon glyphicon-credit-card"></span></div>
-                                <div class="col-sm-8 " style="text-align :center">Tasks</div>
-                                <!-- <div class="col-sm-2">
-                                    <div class="task2"></div> -->
-                            </div>
-                            <div ngFor="let item of tname" ng-show="$first" style="width: 538px; margin-left: -5px;">
-                                <div class="col-sm-12 A" style="    width: 75%">
-                                    <label> Number of Tasks:3</label><br />
-                                    <label> Number of Inprocess Tasks:1</label><br />
-                                    <label> Number of Open Tasks:1</label><br />
-                                    <label> Number of Compeleted Tasks:1</label><br />
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 A">
-                        <div class="row">
-                            <div class="col-sm-12 taskBox1">
-                                <div class="col-sm-2">
-                                    <span class="glyphicon glyphicon-credit-card"></span></div>
-                                <div class="col-sm-8 " style="text-align :center"> Project</div>
-                                <!-- <div class="col-sm-2">
-                                    <div class="task3"></div> -->
-                            </div>
-                            <div ngFor="let item of tname" ng-show="$first" style="width: 538px; margin-left: -5px;">
-                                <div class="col-sm-12 A" style="    width: 75%">
-                                    <label> Project Status:Open</label><br />
-                                    <label> Number of Tasks:5</label><br />
-                                    <label> Start Date:02-02-2019</label><br />
-                                    <label> Estimated hours:10</label><br />
-                                    <label> Log hours:10</label><br />
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 A">
-                        <div class="row">
-                            <div class="col-sm-12 taskBox1">
-                                <div class="col-sm-2">
-                                    <span class="glyphicon glyphicon-credit-card"></span></div>
-                                <div class="col-sm-8 " style="text-align :center">Leave</div>
-                                <!-- <div class="col-sm-2">
-                                    <div class="task4"></div> -->
-                            </div>
-                            <div ngFor="let item of tname" ng-show="$first" style="width: 538px; margin-left: -5px;">
-                                <div class="col-sm-12 A" style="    width: 75%">
-                                    <label> Upcoming Holiday:04-03-2019</label><br />
-                                    <label> Upcoming BirthDay:02-06-2019</label><br />
-                                    <label> Number of Open Tasks:1</label><br />
-                                    <label> Reamaining Leave :15</label><br />
-                                    <label style="    margin-bottom: 0px"> Approved Leave :5</label> <br />
-                                    <label> Pending Leave :1</label><br />
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 A">
-                        <div class="row">
-                            <div class="col-sm-12 taskBox1">
-                                <div class="col-sm-2">
-                                    <span class="glyphicon glyphicon-list-alt"></span></div>
-                                <div class="col-sm-8 " style="text-align :center">Timesheet</div>
-                                <!-- <div class="col-sm-2">
-                                    <span class="glyphicon glyphicon-list-alt"></span>-->
-                            </div>
-                            <!-- <div class="col-sm-6">
-                                    
-                                </div>
-                                <div class="col-sm-6">
-                                    
-                                </div> -->
-                        </div>
-                        <div ngFor="let item of tname" ng-show="$first" style="width: 538px; margin-left: -20px;">
-                            <div class="col-sm-12 A" style="    width: 75%">
-                                <label> Pending Month:Feb</label><br />
-                                <label> Number of Days Pending:1</label><br />
-                                <label> Current Month:feb</label><br />
-                                <label> Number of Days pending:1</label><br />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 A" style="    height: 200px;">
-                        <div class="row">
-                            <div class="col-sm-12 taskBox1">
-                                <div class="col-sm-2">
-                                    <span class="glyphicon glyphicon-time"></span></div>
-                                <div class="col-sm-8 " style="text-align :center">Time Sheet</div>
-                                <div class="col-sm-2">
-                                    <span class="glyphicon glyphicon-time"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <app-signup *ngIf="singup"></app-signup>
-        </div>
+      
         <!-- <div class="col-sm-3  right-sidebar" id="Feed" style="margin-top: 54px;
         ">
             Feed Updates
@@ -276,3 +183,155 @@
 </div>
 <!-- <app-tasks></app-tasks> -->
 <!-- <app-profile></app-profile>  -->
+ <div id="share-buttons" id=btn>
+        <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+        </a>
+</div><div class="fb-share-button"
+ data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"
+  data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+   class="fb-xfbml-parse-ignore" id="btn">Share</a></div>
+   
+   <div class="container">
+        <h2></h2>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="like">like <span class="glyphicon glyphicon-thumbs-up"></span></button>
+      
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">like ur post</h4>
+              </div>
+              <div class="modal-body">
+                    <div class="form-group " id="textarea">
+                            <div class="col-md-6 col-md-6  col-xs-6 col-sm-6 pad">
+                              <label class="control-label  label-name" for="template">Coment:</label>
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 ">
+                              <textarea placeholder="write something here......" formControlName="LDescription" cols="10"
+                                type="text" [(ngModel)]="form.p_LongDescription" name="LDescription"
+                                required></textarea>
+                            </div>
+                          </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+
+
+      <!-- <div class="share-content" id="share">
+            <button class="btn-secondary like-review">
+              <i class="fa fa-heart" aria-hidden="true"></i> share
+            </button>
+            
+          </div> -->
+
+          <div class="container">
+                <h2></h2>
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="share">share <span class="glyphicon glyphicon-share"></span></button>
+              
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">share on ur timeline</h4>
+                      </div>
+                      <div class="modal-body">
+                            <div class="form-group ">
+                                    <div class="col-md-6 col-md-6  col-xs-6 col-sm-6 pad">
+                                      <label class="control-label  label-name" for="template">Share post:</label>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6 col-sm-6 ">
+                                      <textarea placeholder="say something about ......" formControlName="LDescription" cols="10"
+                                        type="text" id="p_LongDescription" [(ngModel)]="form.p_LongDescription" name="LDescription"
+                                        required></textarea>
+                                    </div>
+                                  </div>
+                      </div>
+                      <input id="profile-image-upload" class="hidden" type="file">
+                      <div style="color:#999;" (click)="img()">click here to change profile image</div>
+
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+              </div>
+              
+
+        
+
+
+
+<!-- 
+          <div class="comment-content" id="coment">
+                <button class="btn-secondary like-review">
+                  <i class="fa fa-heart" aria-hidden="true"></i> coment
+                </button>
+              </div> -->
+
+              <div class="container">
+                    <h2></h2>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="coment">coment <span class="glyphicon glyphicon-comment"></span></button>
+                  
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                      <div class="modal-dialog">
+                      
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">create post</h4>
+                          </div>
+                          <div class="modal-body">
+                                <div class="form-group " id="textarea">
+                                        <div class="col-md-6 col-md-6  col-xs-6 col-sm-6 pad">
+                                          <label class="control-label  label-name" for="template">Coment:</label>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 col-sm-6 ">
+                                          <textarea placeholder="write something here......" formControlName="LDescription" cols="10"
+                                            type="text" id="p_LongDescription" [(ngModel)]="form.p_LongDescription" name="LDescription"
+                                            required></textarea>
+                                        </div>
+                                      </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+
+                  <div id="upload-button" class="button">Upload Video</div>
+  <div id="upload-input">
+    <input id="video_file" name="video_file" type="file">
+  </div>
+                  
+
+            

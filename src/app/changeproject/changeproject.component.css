@@ -1,6 +1,6 @@
 #head2{
 text-align: center;
-    margin-top: 51px;
+    margin-top: 32px;
     background: white;
     margin-left: 24px;
     width: 822px;
@@ -11,7 +11,7 @@ text-align: center;
     background: white;
     margin-left: 9px;
     width: 821px;
-    height: 535px;
+    height: 799px;
 }
 label {
     display: inline-block;
@@ -35,7 +35,9 @@ label {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
+#Button{
+    background: blue;
+}
 
 #sidebar{
     width: 164px;
@@ -63,3 +65,130 @@ ul {
 #myTopnav{
     margin-top: 2px;
   }
+  #p1{
+      height: 11px;
+  }
+
+
+
+
+  
+
+@media screen and (max-width: 600px) {
+    #head1[_ngcontent-c3] {
+      margin-top: -49px;
+  }
+  #overlay{
+    margin-right: -51px;
+      /* width :44px; */
+      padding-left: 75px;
+  }
+  #form[_ngcontent-c3][_ngcontent-c3] {
+    margin-left: -5px;
+  }
+    #mobileHeader{
+        background: black;
+        width: 837px;
+    }
+    input#file[_ngcontent-c3] {
+      margin-left: 80px;
+      margin-bottom: 5px;
+    }
+    .attechmentShow[_ngcontent-c3] {
+      width: 315px;
+    }
+    #textarea[_ngcontent-c3] {
+      height: 75px;
+    }
+    textarea[_ngcontent-c3] {
+      height: 79px;
+      width: 154px;
+    }
+  
+    .inputFild[_ngcontent-c3] {
+      margin-top: -47px;
+      height: 576px;
+      background: white;
+      padding-left: 56px;
+      padding-right: 178px;
+      
+    }
+    .headertext[_ngcontent-c3] {
+      margin-top: 26px;
+      height: 50px;
+      padding-top: 2px;
+    }
+    .form-control[_ngcontent-c3] {
+      padding: 3px 12px;
+      width: 100%;
+    }
+    #sidebarleftOpt{
+        padding-top: 10px;
+    height: 35px;
+    margin-left: 20px;
+    }
+    li[_ngcontent-c3] {
+        padding-top: 10px;
+        height: 35px;
+        margin-left: 21px;
+    }
+    
+    
+    
+    .checkBox[_ngcontent-c5] {
+      margin-top: 19px;
+      background: white;
+      height: 83px;
+      width: 265%;
+  }
+    
+   
+    .sidebarleftA {
+      display: none !important;
+    }
+    .sidebarleftB {
+      display: block !important;
+    }
+    .topnav a.icon {
+      float: left;
+      display: block;
+    }
+    .topnav a.icon1 {
+      float: right;
+      display: block;
+    }
+  
+    
+    ul {
+      padding-left: 1px;
+      font-size: 12px;
+    }
+  
+    .glyphicon-menu-hamburger {
+      font-size: 25px;
+    }
+    
+    .glyphicon-menu-hamburger[_ngcontent-c5][_ngcontent-c5] {
+        font-size: 24px;
+        margin-left: -32px;
+        margin-right: -416px;
+    }
+    .glyphicon {
+        position: relative;
+        top: 0px;
+        margin-left: 20px;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .col-sm-3 right-sidebar {
+      display: none;
+    }
+   
+  }
+  
+  

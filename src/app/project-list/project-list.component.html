@@ -1,7 +1,20 @@
 <div class="container">
-    <div class="row">
+    
+        <div class=" col-xs-12" id="mobileHeader">
+                <div class=" col-xs-6  topnav">
+                  <a href="javascript:void(0);" class="icon">
+                    <i class="glyphicon glyphicon-menu-hamburger" (click)="myFunction()" id="icon"></i>
+                  </a>
+                </div>
+                <div class=" col-xs-6 topnav">
+                  <a href="javascript:void(0);" class="icon1">
+                    <i class="glyphicon glyphicon-menu-hamburger" (click)=" myFunctionFeedBack()" id="icon"></i>
+                  </a>
+                </div>
+              </div>
+    <!-- <div class="row">
         <h1>Display project Details</h1>
-    </div>
+    </div> -->
 </div>
 <div class="row">
     <div class="span3" id="span">
@@ -65,7 +78,7 @@
                                 </div>
                             </div>
 
-                            <!-- <li><label class="tree-toggle nav-header">project2</label> -->
+                            <li><label class="tree-toggle nav-header">project2</label> -->
                             <li><label class="tree-toggle nav-header" class="collapsible" style="margin-left: 9px;"
                                     (click)="task()">project2</label>
                                 <ul class="nav nav-list tree">

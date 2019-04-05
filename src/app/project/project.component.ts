@@ -123,6 +123,8 @@ export class ProjectComponent implements OnInit {
     //  attechOp : "01-07-2019",
    }
    console.log("hello");
+
+   
   
 
 // this._ProjectService.createProject(body).subscribe(data=>{
@@ -237,6 +239,7 @@ validation(value){
 // return false;
 // }
 
+
   console.log(" value of project_Name"+this.form.project_Name);
 if (this.form.project_Name == null) {
   console.log("if running")
@@ -349,6 +352,24 @@ remove(index){
   console.log(index);
   this.attechmentArray.splice(index, 1);
   this.atttechments.splice(index, 1);
+}
+myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "col-sm-2 sidebarleft") {
+    x.className = "sidebarleftB";
+  } else {
+    x.className = "col-sm-2 sidebarleft";
+  }
+}
+
+myFunctionFeedBack() {
+  var x = document.getElementById("Feed");
+  console.log(x)
+  if (x.className === "col-sm-3  right-sidebar") {
+    x.className = "right-sidebarB";
+  } else {
+    x.className = "col-sm-3  right-sidebar";
+  }
 }
 
 

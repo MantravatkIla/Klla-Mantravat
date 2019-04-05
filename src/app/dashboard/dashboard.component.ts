@@ -119,7 +119,7 @@ export class DashboardComponent implements OnInit {
     }
 
   }
-
+  
 
   //  myFunction() {
   //   var modal = document.getElementById('myTopnav');
@@ -155,6 +155,9 @@ export class DashboardComponent implements OnInit {
   //       }
   //   }
   // }
+  
+
+  
   myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "col-sm-2 sidebarleft") {
@@ -173,6 +176,8 @@ export class DashboardComponent implements OnInit {
       x.className = "col-sm-3  right-sidebar";
     }
   }
+  
+  
   pro() {
     var coll = document.getElementsByClassName("collapsible");
     var i;
@@ -188,10 +193,10 @@ export class DashboardComponent implements OnInit {
         }
       });
     }
-
-
-
   }
+  
+
+  
   project() {
     var l1 = (document.getElementById('projects') as HTMLInputElement);
     var l2 = (document.getElementById('tasks') as HTMLInputElement);
@@ -302,6 +307,6 @@ export class DashboardComponent implements OnInit {
    l5.style.display="none";
    l6.style.display="none";
    l2.style.display="none";
+  }
 
   }
-}

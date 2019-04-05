@@ -119,6 +119,7 @@ import { DisplayProjectComponent } from './display-project/display-project.compo
                     path :"display-task",
                     component : DisplayTaskComponent
                   },
+                  
                   {
                     path :"menu",
                     component :MenuComponent

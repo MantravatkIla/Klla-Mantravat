@@ -3,15 +3,7 @@
 
    width: 100%;
 }
-#b1 {
 
-   background-color: rgba(65, 19, 230, 0.96);
-   height: 31px;;
-   width: 69px;
-   /* margin-left: 532px; */
-   border-radius: 12px;
-   margin-left: 882px;
- }
  input[type=text], input[type=password] {
    width: 70%;
    padding: 5px 10px;
@@ -20,6 +12,28 @@
    border: 1px solid #ccc;
    box-sizing: border-box;
    margin-left: 20px;
+ }
+ #b1{
+  font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-left: 578px;
+    background: blue;
+    border-radius: 12px;
+    height: 34px;
+    width: 65px;
+
+ }
+ #b2{
+  font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-left: 578px;
+    background: blue;
+    border-radius: 12px;
+    height: 34px;
+    width: 65px;
+
  }
  input[type=date] {
    width: 27%;
@@ -81,13 +95,5 @@ table
      {
          margin-left: 0px;
      }
-     #b1 {
-
-       background-color: rgba(65, 19, 230, 0.96);
-       height: 31px;;
-       width: 69px;
-       /* margin-left: 532px; */
-       border-radius: 12px;
-       margin-left: 208px;
-     }
+    
 }

@@ -32,6 +32,24 @@ export class DisplayTaskComponent implements OnInit {
     },
   ]
   }
+  myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "col-sm-2 sidebarleft") {
+      x.className = "sidebarleftB";
+    } else {
+      x.className = "col-sm-2 sidebarleft";
+    }
+  }
+
+  myFunctionFeedBack() {
+    var x = document.getElementById("Feed");
+    console.log(x)
+    if (x.className === "col-sm-3  right-sidebar") {
+      x.className = "right-sidebarB";
+    } else {
+      x.className = "col-sm-3  right-sidebar";
+    }
+  }
 subtask(){
   var coll = document.getElementsByClassName("collapsible");
   var i;

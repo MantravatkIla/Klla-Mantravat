@@ -179,6 +179,12 @@ textarea {
 #form[_ngcontent-c3][_ngcontent-c3] {
   margin-left: -5px;
 }
+#head1[_ngcontent-c5] {
+  background: white;
+  margin-left: 16px;
+  margin-top: -218px;
+  width: 808px;
+}
   #mobileHeader{
     margin-top: 9px;
     background: black;
@@ -199,14 +205,14 @@ textarea {
     width: 154px;
   }
 
-  .inputFild[_ngcontent-c3] {
-    margin-top: -47px;
+  .inputFild[_ngcontent-c5] {
+    margin-top: -183px;
     height: 576px;
     background: white;
     padding-left: 56px;
     padding-right: 178px;
-    
-  }
+    width: 804px;
+}
   .headertext[_ngcontent-c3] {
     margin-top: 26px;
     height: 50px;
@@ -232,6 +238,8 @@ textarea {
   }
   .sidebarleftB {
     display: block !important;
+    margin-left: 20px;
+    padding-left: 20px;
   }
   .topnav a.icon {
     float: left;
@@ -244,8 +252,8 @@ textarea {
 
   
   ul {
-    padding-left: 1px;
-    font-size: 12px;
+    padding-left: 21px;
+    font-size: 14px;
   }
 
   .glyphicon-menu-hamburger {
@@ -255,12 +263,20 @@ textarea {
   
   .glyphicon-menu-hamburger[_ngcontent-c5] {
     font-size: 25px;
-    margin-left: -43px;
-    margin-right: -416px;
+    margin-left: -24px;
+    margin-right: -3px;
 }
   .col-sm-3 right-sidebar {
     display: none;
   }
+  #myTopnav[_ngcontent-c3] {
+    position: absolute;
+    z-index: 2;
+    width: 110px;
+    margin-top: 28px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
  
 }
 

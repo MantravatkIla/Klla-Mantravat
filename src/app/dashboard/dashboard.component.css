@@ -10,6 +10,24 @@ img {
   border-radius: 44px;
   margin-top: 27px;
 }
+.modal-body {
+  position: relative;
+  padding: 15px;
+  width: 229px;
+  height: 147px;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 61px;
+  font-weight: 700;
+  margin-left: 15px;
+  font-size: 12px;
+}
+#btn{
+  margin-top: 245px;
+  margin-left: 28px;
+}
 .container-fluid {
   background-color: rgba(65, 19, 230, 0.96);
   height: 42px;
@@ -33,6 +51,10 @@ li {
 .container-fluid1 {
   background-color: #ddd;
   height: auto;
+}
+h2 {
+  font-size: 30px;
+  margin-top: 42px;
 }
 .A {
   background-color: rgba(255, 255, 255, 0.86);
@@ -110,6 +132,84 @@ ul {
 .topnav .icon1 {
   display: none;
 }
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+.like-content {
+  display: inline-block;
+  width: 100%;
+  margin: 40px 0 0;
+  padding: 40px 0 0;
+  font-size: 18px;
+  border-top: 10px dashed #eee;
+  text-align: center;
+}
+.like-content span {
+color: #9d9da4;
+font-family: monospace;
+}
+.like-content  {
+  display: inline-block;
+  width: 10%;
+  margin: 40px 0 0;
+  padding: 40px 0 0;
+  font-size: 103px;
+  border-top: 10px dashed #eee;
+  text-align: center;
+  margin-top: -141px;
+  margin-left: 330px;
+}
+.like-content .btn-secondary:hover {
+  transform: translateY(-3px);
+}
+.like-content .btn-secondary .fa {
+  margin-right: 5px;
+}
+.animate-like {
+animation-name: likeAnimation;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+animation-duration: 0.65s;
+}
+button[_ngcontent-c5] {
+  margin-left: 28px;
+    height: 62px;
+    font-size: 15px;
+    margin-top: -20px;
+}
+#share[_ngcontent-c5] {
+  margin-top: -269px;
+  margin-left: 358px;
+}
+#coment{
+  margin-left: 663px;
+  margin-top: -384px;
+}
+#like
+{
+  margin-top: -135px;
+    margin-left: 12px;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+textarea {
+  font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-left: 145px;
+    width: 268px;
+    height: 87px;
+}
+
+
 
 /* .sidebarleftA{
     display: block !important;
